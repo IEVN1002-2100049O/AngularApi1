@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { TemapComponent } from "./tem/temap/temap.component";
-import { AddmessageComponent } from "./tem/addmessage/addmessage.component";
+import {RouterOutlet } from '@angular/router';
+import { NavegadorComponent } from "./navegador/navegador/navegador.component";
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, TemapComponent, AddmessageComponent],
+  imports: [RouterOutlet, NavegadorComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
